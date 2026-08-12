@@ -24,16 +24,19 @@ Computer Science graduate interested in AI/ML, software engineering and building
 ### Languages
 
 <p>
-  <img src="https://skillicons.dev/icons?i=java,python,js,mysql" />
+  <img src="https://skillicons.dev/icons?i=java,python,js" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
 </p>
 
 ### AI / ML
 
 <p>
   <img src="https://skillicons.dev/icons?i=pytorch" />
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/Transformers-FF6F00?style=for-the-badge&logo=huggingface&logoColor=white" />
+  <img src="https://img.shields.io/badge/spaCy-09A3D5?style=for-the-badge&logo=spacy&logoColor=white" />
+  <img src="https://img.shields.io/badge/NLTK-3C873A?style=for-the-badge&logo=python&logoColor=white" />
 </p>
-
-`Hugging Face` `Transformers` `spaCy` `NLTK`
 
 ### Backend
 
