@@ -268,34 +268,36 @@ Always exploring something new.
   <code>CONNECT / WITH / ME</code>
 </h2>
 
-<p align="center">
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="mailto:shwetanjsrey20@gmail.com">
+        <img
+          src="https://img.shields.io/badge/EMAIL-shwetanjsrey20%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
+          alt="Email"
+        />
+      </a>
+    </td>
 
-  <a href="mailto:shwetanjsrey20@gmail.com">
-    <img
-      src="https://img.shields.io/badge/EMAIL-shwetanjsrey20%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
-      alt="Email"
-    />
-  </a>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/shwetanj-srey-6682603a0">
+        <img
+          src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+          alt="LinkedIn"
+        />
+      </a>
+    </td>
 
-  &nbsp;
-
-  <a href="https://www.linkedin.com/in/shwetanj-srey-6682603a0">
-    <img
-      src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-      alt="LinkedIn"
-    />
-  </a>
-
-  &nbsp;
-
-  <a href="#">
-    <img
-      src="https://img.shields.io/badge/PORTFOLIO-COMING%20SOON-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white"
-      alt="Portfolio coming soon"
-    />
-  </a>
-
-</p>
+    <td align="center">
+      <a href="#">
+        <img
+          src="https://img.shields.io/badge/PORTFOLIO-COMING%20SOON-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white"
+          alt="Portfolio Coming Soon"
+        />
+      </a>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <sub>Building things, learning continuously, and shipping when possible.</sub>
