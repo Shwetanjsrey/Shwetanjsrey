@@ -5,49 +5,75 @@ viewBox="0 0 1200 1030">
 
 <defs>
 
+  <!-- Subtle glow used by important HUD elements -->
+  <filter id="softGlow">
+    <feGaussianBlur stdDeviation="3" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <!-- Progress animation -->
   <style>
 
     .title {
-      font: 700 34px monospace;
-      fill: #f8fafc;
+      font-family: monospace;
+      font-size: 34px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      fill: #F8FAFC;
     }
 
     .mission {
-      font: 18px monospace;
-      fill: #a78bfa;
+      font-family: monospace;
+      font-size: 17px;
+      fill: #C084FC;
     }
 
     .quest-name {
-      font: 700 22px monospace;
+      font-family: monospace;
+      font-size: 21px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
     }
 
     .description {
-      font: 17px sans-serif;
-      fill: #cbd5e1;
+      font-family: monospace;
+      font-size: 15px;
+      fill: #CBD5E1;
     }
 
     .level {
-      font: 700 16px monospace;
+      font-family: monospace;
+      font-size: 15px;
+      font-weight: 700;
     }
 
     .xp {
-      font: 15px monospace;
-      fill: #94a3b8;
+      font-family: monospace;
+      font-size: 14px;
+      fill: #94A3B8;
     }
 
     .percentage {
-      font: 700 17px monospace;
+      font-family: monospace;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .number {
+      font-family: monospace;
+      font-size: 25px;
+      font-weight: 700;
     }
 
     .footer {
-      font: 700 17px monospace;
-      fill: #cbd5e1;
-    }
-
-    .track {
-      fill: #111827;
-      stroke: #334155;
-      stroke-width: 1;
+      font-family: monospace;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      fill: #CBD5E1;
     }
 
     .progress {
@@ -71,14 +97,14 @@ viewBox="0 0 1200 1030">
 
 
 <!-- =====================================================
-     Main background
+     MAIN BACKGROUND
      ===================================================== -->
 
 <rect
   width="1200"
   height="1030"
   rx="18"
-  fill="#070b14"
+  fill="#070B14"
 />
 
 <rect
@@ -94,7 +120,7 @@ viewBox="0 0 1200 1030">
 
 
 <!-- =====================================================
-     Header
+     HEADER
      ===================================================== -->
 
 <text
@@ -102,16 +128,26 @@ viewBox="0 0 1200 1030">
   y="58"
   class="title"
 >
-  🎯 CURRENT QUEST
+  CURRENT QUEST
 </text>
 
 <line
-  x1="350"
+  x1="310"
   y1="47"
   x2="1150"
   y2="47"
-  stroke="#8b5cf6"
+  stroke="#A855F7"
   stroke-width="2"
+/>
+
+<line
+  x1="310"
+  y1="51"
+  x2="700"
+  y2="51"
+  stroke="#38BDF8"
+  stroke-width="1"
+  opacity="0.35"
 />
 
 <text
@@ -122,19 +158,37 @@ viewBox="0 0 1200 1030">
   &lt; Mission: Level up every day, ship impactful projects, and keep building /&gt;
 </text>
 
+<!-- =====================================================
+     QUEST 1
+     ===================================================== -->
+
 <rect
   x="45"
   y="125"
   width="535"
   height="220"
   rx="16"
-  fill="#0b1120"
+  fill="#0B1120"
   stroke="#A855F7"
-  stroke-width="2"
+  stroke-width="1.5"
+  opacity="0.98"
 />
 
 
-<!-- Icon container -->
+<!-- Subtle top accent -->
+
+<line
+  x1="63"
+  y1="126"
+  x2="562"
+  y2="126"
+  stroke="#A855F7"
+  stroke-width="2"
+  opacity="0.55"
+/>
+
+
+<!-- Number container -->
 
 <rect
   x="65"
@@ -142,19 +196,20 @@ viewBox="0 0 1200 1030">
   width="82"
   height="82"
   rx="18"
-  fill="#0f172a"
+  fill="#0A1020"
   stroke="#A855F7"
-  stroke-width="2"
+  stroke-width="1.5"
 />
 
 
-<!-- Icon -->
+<!-- Number -->
 
 <text
   x="106"
   y="204"
   text-anchor="middle"
-  font-size="34"
+  class="number"
+  fill="#C084FC"
 >
   01
 </text>
@@ -166,7 +221,7 @@ viewBox="0 0 1200 1030">
   x="170"
   y="173"
   class="quest-name"
-  fill="#A855F7"
+  fill="#C084FC"
 >
   LEVEL UP DSA
 </text>
@@ -189,9 +244,11 @@ viewBox="0 0 1200 1030">
   x="170"
   y="237"
   width="340"
-  height="13"
+  height="12"
   rx="6"
-  class="track"
+  fill="#111827"
+  stroke="#273449"
+  stroke-width="1"
 />
 
 
@@ -201,7 +258,7 @@ viewBox="0 0 1200 1030">
   x="170"
   y="237"
   width="238.0"
-  height="13"
+  height="12"
   rx="6"
   fill="#A855F7"
   class="progress"
@@ -215,7 +272,7 @@ viewBox="0 0 1200 1030">
   y="248"
   text-anchor="end"
   class="percentage"
-  fill="#A855F7"
+  fill="#C084FC"
 >
   70%
 </text>
@@ -227,7 +284,7 @@ viewBox="0 0 1200 1030">
   x="170"
   y="280"
   class="level"
-  fill="#A855F7"
+  fill="#C084FC"
 >
   LVL 12
 </text>
@@ -244,19 +301,37 @@ viewBox="0 0 1200 1030">
   850 / 1200 XP
 </text>
 
+<!-- =====================================================
+     QUEST 2
+     ===================================================== -->
+
 <rect
   x="635"
   y="125"
   width="535"
   height="220"
   rx="16"
-  fill="#0b1120"
+  fill="#0B1120"
   stroke="#38BDF8"
-  stroke-width="2"
+  stroke-width="1.5"
+  opacity="0.98"
 />
 
 
-<!-- Icon container -->
+<!-- Subtle top accent -->
+
+<line
+  x1="653"
+  y1="126"
+  x2="1152"
+  y2="126"
+  stroke="#38BDF8"
+  stroke-width="2"
+  opacity="0.55"
+/>
+
+
+<!-- Number container -->
 
 <rect
   x="655"
@@ -264,19 +339,20 @@ viewBox="0 0 1200 1030">
   width="82"
   height="82"
   rx="18"
-  fill="#0f172a"
+  fill="#0A1020"
   stroke="#38BDF8"
-  stroke-width="2"
+  stroke-width="1.5"
 />
 
 
-<!-- Icon -->
+<!-- Number -->
 
 <text
   x="696"
   y="204"
   text-anchor="middle"
-  font-size="34"
+  class="number"
+  fill="#67E8F9"
 >
   02
 </text>
@@ -288,7 +364,7 @@ viewBox="0 0 1200 1030">
   x="760"
   y="173"
   class="quest-name"
-  fill="#38BDF8"
+  fill="#67E8F9"
 >
   BUILD AI
 </text>
@@ -311,9 +387,11 @@ viewBox="0 0 1200 1030">
   x="760"
   y="237"
   width="340"
-  height="13"
+  height="12"
   rx="6"
-  class="track"
+  fill="#111827"
+  stroke="#273449"
+  stroke-width="1"
 />
 
 
@@ -323,7 +401,7 @@ viewBox="0 0 1200 1030">
   x="760"
   y="237"
   width="221.0"
-  height="13"
+  height="12"
   rx="6"
   fill="#38BDF8"
   class="progress"
@@ -337,7 +415,7 @@ viewBox="0 0 1200 1030">
   y="248"
   text-anchor="end"
   class="percentage"
-  fill="#38BDF8"
+  fill="#67E8F9"
 >
   65%
 </text>
@@ -349,7 +427,7 @@ viewBox="0 0 1200 1030">
   x="760"
   y="280"
   class="level"
-  fill="#38BDF8"
+  fill="#67E8F9"
 >
   LVL 10
 </text>
@@ -366,19 +444,37 @@ viewBox="0 0 1200 1030">
   650 / 1000 XP
 </text>
 
+<!-- =====================================================
+     QUEST 3
+     ===================================================== -->
+
 <rect
   x="45"
   y="370"
   width="535"
   height="220"
   rx="16"
-  fill="#0b1120"
-  stroke="#22D3EE"
-  stroke-width="2"
+  fill="#0B1120"
+  stroke="#A855F7"
+  stroke-width="1.5"
+  opacity="0.98"
 />
 
 
-<!-- Icon container -->
+<!-- Subtle top accent -->
+
+<line
+  x1="63"
+  y1="371"
+  x2="562"
+  y2="371"
+  stroke="#A855F7"
+  stroke-width="2"
+  opacity="0.55"
+/>
+
+
+<!-- Number container -->
 
 <rect
   x="65"
@@ -386,19 +482,20 @@ viewBox="0 0 1200 1030">
   width="82"
   height="82"
   rx="18"
-  fill="#0f172a"
-  stroke="#22D3EE"
-  stroke-width="2"
+  fill="#0A1020"
+  stroke="#A855F7"
+  stroke-width="1.5"
 />
 
 
-<!-- Icon -->
+<!-- Number -->
 
 <text
   x="106"
   y="449"
   text-anchor="middle"
-  font-size="34"
+  class="number"
+  fill="#C084FC"
 >
   03
 </text>
@@ -410,7 +507,7 @@ viewBox="0 0 1200 1030">
   x="170"
   y="418"
   class="quest-name"
-  fill="#22D3EE"
+  fill="#C084FC"
 >
   MASTER BACKEND
 </text>
@@ -433,9 +530,11 @@ viewBox="0 0 1200 1030">
   x="170"
   y="482"
   width="340"
-  height="13"
+  height="12"
   rx="6"
-  class="track"
+  fill="#111827"
+  stroke="#273449"
+  stroke-width="1"
 />
 
 
@@ -445,9 +544,9 @@ viewBox="0 0 1200 1030">
   x="170"
   y="482"
   width="204.0"
-  height="13"
+  height="12"
   rx="6"
-  fill="#22D3EE"
+  fill="#A855F7"
   class="progress"
 />
 
@@ -459,7 +558,7 @@ viewBox="0 0 1200 1030">
   y="493"
   text-anchor="end"
   class="percentage"
-  fill="#22D3EE"
+  fill="#C084FC"
 >
   60%
 </text>
@@ -471,7 +570,7 @@ viewBox="0 0 1200 1030">
   x="170"
   y="525"
   class="level"
-  fill="#22D3EE"
+  fill="#C084FC"
 >
   LVL 9
 </text>
@@ -488,19 +587,37 @@ viewBox="0 0 1200 1030">
   540 / 900 XP
 </text>
 
+<!-- =====================================================
+     QUEST 4
+     ===================================================== -->
+
 <rect
   x="635"
   y="370"
   width="535"
   height="220"
   rx="16"
-  fill="#0b1120"
-  stroke="#4ADE80"
-  stroke-width="2"
+  fill="#0B1120"
+  stroke="#38BDF8"
+  stroke-width="1.5"
+  opacity="0.98"
 />
 
 
-<!-- Icon container -->
+<!-- Subtle top accent -->
+
+<line
+  x1="653"
+  y1="371"
+  x2="1152"
+  y2="371"
+  stroke="#38BDF8"
+  stroke-width="2"
+  opacity="0.55"
+/>
+
+
+<!-- Number container -->
 
 <rect
   x="655"
@@ -508,19 +625,20 @@ viewBox="0 0 1200 1030">
   width="82"
   height="82"
   rx="18"
-  fill="#0f172a"
-  stroke="#4ADE80"
-  stroke-width="2"
+  fill="#0A1020"
+  stroke="#38BDF8"
+  stroke-width="1.5"
 />
 
 
-<!-- Icon -->
+<!-- Number -->
 
 <text
   x="696"
   y="449"
   text-anchor="middle"
-  font-size="34"
+  class="number"
+  fill="#67E8F9"
 >
   04
 </text>
@@ -532,7 +650,7 @@ viewBox="0 0 1200 1030">
   x="760"
   y="418"
   class="quest-name"
-  fill="#4ADE80"
+  fill="#67E8F9"
 >
   OPEN SOURCE
 </text>
@@ -555,9 +673,11 @@ viewBox="0 0 1200 1030">
   x="760"
   y="482"
   width="340"
-  height="13"
+  height="12"
   rx="6"
-  class="track"
+  fill="#111827"
+  stroke="#273449"
+  stroke-width="1"
 />
 
 
@@ -567,9 +687,9 @@ viewBox="0 0 1200 1030">
   x="760"
   y="482"
   width="136.0"
-  height="13"
+  height="12"
   rx="6"
-  fill="#4ADE80"
+  fill="#38BDF8"
   class="progress"
 />
 
@@ -581,7 +701,7 @@ viewBox="0 0 1200 1030">
   y="493"
   text-anchor="end"
   class="percentage"
-  fill="#4ADE80"
+  fill="#67E8F9"
 >
   40%
 </text>
@@ -593,7 +713,7 @@ viewBox="0 0 1200 1030">
   x="760"
   y="525"
   class="level"
-  fill="#4ADE80"
+  fill="#67E8F9"
 >
   LVL 6
 </text>
@@ -610,19 +730,37 @@ viewBox="0 0 1200 1030">
   280 / 700 XP
 </text>
 
+<!-- =====================================================
+     QUEST 5
+     ===================================================== -->
+
 <rect
   x="45"
   y="615"
   width="535"
   height="220"
   rx="16"
-  fill="#0b1120"
-  stroke="#F59E0B"
-  stroke-width="2"
+  fill="#0B1120"
+  stroke="#A855F7"
+  stroke-width="1.5"
+  opacity="0.98"
 />
 
 
-<!-- Icon container -->
+<!-- Subtle top accent -->
+
+<line
+  x1="63"
+  y1="616"
+  x2="562"
+  y2="616"
+  stroke="#A855F7"
+  stroke-width="2"
+  opacity="0.55"
+/>
+
+
+<!-- Number container -->
 
 <rect
   x="65"
@@ -630,19 +768,20 @@ viewBox="0 0 1200 1030">
   width="82"
   height="82"
   rx="18"
-  fill="#0f172a"
-  stroke="#F59E0B"
-  stroke-width="2"
+  fill="#0A1020"
+  stroke="#A855F7"
+  stroke-width="1.5"
 />
 
 
-<!-- Icon -->
+<!-- Number -->
 
 <text
   x="106"
   y="694"
   text-anchor="middle"
-  font-size="34"
+  class="number"
+  fill="#C084FC"
 >
   05
 </text>
@@ -654,7 +793,7 @@ viewBox="0 0 1200 1030">
   x="170"
   y="663"
   class="quest-name"
-  fill="#F59E0B"
+  fill="#C084FC"
 >
   SHIP PROJECTS
 </text>
@@ -677,9 +816,11 @@ viewBox="0 0 1200 1030">
   x="170"
   y="727"
   width="340"
-  height="13"
+  height="12"
   rx="6"
-  class="track"
+  fill="#111827"
+  stroke="#273449"
+  stroke-width="1"
 />
 
 
@@ -689,9 +830,9 @@ viewBox="0 0 1200 1030">
   x="170"
   y="727"
   width="255.0"
-  height="13"
+  height="12"
   rx="6"
-  fill="#F59E0B"
+  fill="#A855F7"
   class="progress"
 />
 
@@ -703,7 +844,7 @@ viewBox="0 0 1200 1030">
   y="738"
   text-anchor="end"
   class="percentage"
-  fill="#F59E0B"
+  fill="#C084FC"
 >
   75%
 </text>
@@ -715,7 +856,7 @@ viewBox="0 0 1200 1030">
   x="170"
   y="770"
   class="level"
-  fill="#F59E0B"
+  fill="#C084FC"
 >
   LVL 13
 </text>
@@ -732,19 +873,37 @@ viewBox="0 0 1200 1030">
   975 / 1300 XP
 </text>
 
+<!-- =====================================================
+     QUEST 6
+     ===================================================== -->
+
 <rect
   x="635"
   y="615"
   width="535"
   height="220"
   rx="16"
-  fill="#0b1120"
-  stroke="#EC4899"
-  stroke-width="2"
+  fill="#0B1120"
+  stroke="#38BDF8"
+  stroke-width="1.5"
+  opacity="0.98"
 />
 
 
-<!-- Icon container -->
+<!-- Subtle top accent -->
+
+<line
+  x1="653"
+  y1="616"
+  x2="1152"
+  y2="616"
+  stroke="#38BDF8"
+  stroke-width="2"
+  opacity="0.55"
+/>
+
+
+<!-- Number container -->
 
 <rect
   x="655"
@@ -752,19 +911,20 @@ viewBox="0 0 1200 1030">
   width="82"
   height="82"
   rx="18"
-  fill="#0f172a"
-  stroke="#EC4899"
-  stroke-width="2"
+  fill="#0A1020"
+  stroke="#38BDF8"
+  stroke-width="1.5"
 />
 
 
-<!-- Icon -->
+<!-- Number -->
 
 <text
   x="696"
   y="694"
   text-anchor="middle"
-  font-size="34"
+  class="number"
+  fill="#67E8F9"
 >
   06
 </text>
@@ -776,7 +936,7 @@ viewBox="0 0 1200 1030">
   x="760"
   y="663"
   class="quest-name"
-  fill="#EC4899"
+  fill="#67E8F9"
 >
   KEEP LEARNING
 </text>
@@ -799,9 +959,11 @@ viewBox="0 0 1200 1030">
   x="760"
   y="727"
   width="340"
-  height="13"
+  height="12"
   rx="6"
-  class="track"
+  fill="#111827"
+  stroke="#273449"
+  stroke-width="1"
 />
 
 
@@ -811,9 +973,9 @@ viewBox="0 0 1200 1030">
   x="760"
   y="727"
   width="272.0"
-  height="13"
+  height="12"
   rx="6"
-  fill="#EC4899"
+  fill="#38BDF8"
   class="progress"
 />
 
@@ -825,7 +987,7 @@ viewBox="0 0 1200 1030">
   y="738"
   text-anchor="end"
   class="percentage"
-  fill="#EC4899"
+  fill="#67E8F9"
 >
   80%
 </text>
@@ -837,7 +999,7 @@ viewBox="0 0 1200 1030">
   x="760"
   y="770"
   class="level"
-  fill="#EC4899"
+  fill="#67E8F9"
 >
   LVL 14
 </text>
@@ -854,19 +1016,23 @@ viewBox="0 0 1200 1030">
   1120 / 1400 XP
 </text>
 
+<!-- =====================================================
+     OVERALL PROGRESS
+     ===================================================== -->
+
 <rect
   x="45"
   y="865"
   width="1110"
   height="120"
   rx="16"
-  fill="#0b1120"
-  stroke="#334155"
-  stroke-width="2"
+  fill="#0B1120"
+  stroke="#273449"
+  stroke-width="1.5"
 />
 
 
-<!-- Overall progress label -->
+<!-- Label -->
 
 <text
   x="70"
@@ -877,38 +1043,40 @@ viewBox="0 0 1200 1030">
 </text>
 
 
-<!-- Overall progress track -->
+<!-- Progress track -->
 
 <rect
   x="70"
   y="923"
   width="650"
-  height="16"
-  rx="8"
-  class="track"
+  height="14"
+  rx="7"
+  fill="#111827"
+  stroke="#273449"
+  stroke-width="1"
 />
 
 
-<!-- Overall progress fill -->
+<!-- Progress -->
 
 <rect
   x="70"
   y="923"
   width="442.0"
-  height="16"
-  rx="8"
-  fill="#8b5cf6"
+  height="14"
+  rx="7"
+  fill="#A855F7"
   class="progress"
 />
 
 
-<!-- Overall percentage -->
+<!-- Percentage -->
 
 <text
   x="745"
-  y="937"
+  y="936"
   class="percentage"
-  fill="#a78bfa"
+  fill="#C084FC"
 >
   68%
 </text>
@@ -920,12 +1088,13 @@ viewBox="0 0 1200 1030">
   x="880"
   y="903"
   class="footer"
+  fill="#67E8F9"
 >
   DEVELOPER
 </text>
 
 
-<!-- Rank XP -->
+<!-- XP -->
 
 <text
   x="880"
@@ -934,5 +1103,6 @@ viewBox="0 0 1200 1030">
 >
   XP 4420 / 6500
 </text>
+
 
 </svg>
