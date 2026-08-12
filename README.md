@@ -112,54 +112,11 @@ Flask-based web application that performs Neural Style Transfer to combine the c
 </td>
 </tr>
 </table>
-## 🎮 Current Quest
+<h2>🎮 Current Quest</h2>
 
-<table>
-<tr>
-<td>
-
-⚔️ <b>LEVEL UP DSA</b><br>
-<sub>Sharpen problem-solving skills</sub>
-
-</td>
-<td>
-
-🤖 <b>BUILD AI</b><br>
-<sub>Create stronger ML projects</sub>
-
-</td>
-</tr>
-
-<tr>
-<td>
-
-🌐 <b>MASTER BACKEND</b><br>
-<sub>Learn scalable systems</sub>
-
-</td>
-<td>
-
-🐙 <b>OPEN SOURCE</b><br>
-<sub>Start contributing</sub>
-
-</td>
-</tr>
-
-<tr>
-<td>
-
-🚀 <b>SHIP PROJECTS</b><br>
-<sub>Build. Deploy. Repeat.</sub>
-
-</td>
-<td>
-
-🧠 <b>KEEP LEARNING</b><br>
-<sub>Always exploring new tech</sub>
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="./quest.svg" width="100%" alt="Dynamic RPG-style developer quest dashboard">
+</p>
 
 ## 📊 GitHub Activity
 
