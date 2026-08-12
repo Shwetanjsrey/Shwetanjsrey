@@ -2,7 +2,13 @@
   <img src="./banner.png" width="100%" alt="Srey - AI/ML and Software Engineering">
 </p>
 
-# Hi, I'm Srey 👋
+<h1 align="center">Hi, I'm Srey 👋</h1>
+
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=700&lines=AI%2FML+%26+Software+Engineering;Building+Intelligent+Applications;NLP+%7C+Backend+%7C+Machine+Learning;Always+Learning%2C+Always+Building" alt="Typing SVG" />
+  </a>
+</p>
 
 Computer Science graduate interested in AI/ML, software engineering and building interesting things with code.
 
