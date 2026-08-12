@@ -21,14 +21,31 @@ Computer Science graduate interested in AI/ML, software engineering and building
 
 ## 🛠️ Tech Stack
 
-**Languages:** Java • Python • JavaScript • SQL
+### Languages
 
-**AI / ML:** PyTorch • Hugging Face • Transformers • spaCy • NLTK
+<p>
+  <img src="https://skillicons.dev/icons?i=java,python,js,mysql" />
+</p>
 
-**Backend:** Node.js • Flask • Spring Boot
+### AI / ML
 
-**Tools:** Git • GitHub • Docker
+<p>
+  <img src="https://skillicons.dev/icons?i=pytorch" />
+</p>
 
+`Hugging Face` `Transformers` `spaCy` `NLTK`
+
+### Backend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,flask,spring" />
+</p>
+
+### Tools
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,docker" />
+</p>
 ## 🚀 Featured Projects
 
 ### 🤖 MindWatch
