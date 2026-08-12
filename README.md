@@ -112,13 +112,54 @@ Flask-based web application that performs Neural Style Transfer to combine the c
 </td>
 </tr>
 </table>
-## 🎯 Current Quest
+## 🎮 Current Quest
 
-- ⚔️ Improve DSA
-- 🤖 Build stronger AI/ML projects
-- 🌐 Learn scalable backend systems
-- 🐙 Contribute to open source
-- 🚀 Build and deploy more projects
+<table>
+<tr>
+<td>
+
+⚔️ <b>LEVEL UP DSA</b><br>
+<sub>Sharpen problem-solving skills</sub>
+
+</td>
+<td>
+
+🤖 <b>BUILD AI</b><br>
+<sub>Create stronger ML projects</sub>
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+🌐 <b>MASTER BACKEND</b><br>
+<sub>Learn scalable systems</sub>
+
+</td>
+<td>
+
+🐙 <b>OPEN SOURCE</b><br>
+<sub>Start contributing</sub>
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+🚀 <b>SHIP PROJECTS</b><br>
+<sub>Build. Deploy. Repeat.</sub>
+
+</td>
+<td>
+
+🧠 <b>KEEP LEARNING</b><br>
+<sub>Always exploring new tech</sub>
+
+</td>
+</tr>
+</table>
 
 ## 📊 GitHub Activity
 
