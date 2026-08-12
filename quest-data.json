@@ -6,7 +6,7 @@
       "progress": 70,
       "level": 12,
       "xp": "850 / 1200",
-      "icon": "⚔"
+      "icon": "01"
     },
     {
       "name": "BUILD AI",
@@ -14,7 +14,7 @@
       "progress": 65,
       "level": 10,
       "xp": "650 / 1000",
-      "icon": "🧠"
+      "icon": "02"
     },
     {
       "name": "MASTER BACKEND",
@@ -22,7 +22,7 @@
       "progress": 60,
       "level": 9,
       "xp": "540 / 900",
-      "icon": "🌐"
+      "icon": "03"
     },
     {
       "name": "OPEN SOURCE",
@@ -30,7 +30,7 @@
       "progress": 40,
       "level": 6,
       "xp": "280 / 700",
-      "icon": "🐙"
+      "icon": "04"
     },
     {
       "name": "SHIP PROJECTS",
@@ -38,7 +38,7 @@
       "progress": 75,
       "level": 13,
       "xp": "975 / 1300",
-      "icon": "🚀"
+      "icon": "05"
     },
     {
       "name": "KEEP LEARNING",
@@ -46,7 +46,7 @@
       "progress": 80,
       "level": 14,
       "xp": "1120 / 1400",
-      "icon": "🧠"
+      "icon": "06"
     }
   ],
   "overall": 68,
