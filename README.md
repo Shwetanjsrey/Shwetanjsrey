@@ -128,12 +128,68 @@ Flask-based web application that performs Neural Style Transfer to combine the c
   />
 </p>
 
-## 🎮 Beyond the Code
+<h2>🎮 Beyond the Code</h2>
 
-Anime • Gaming • Technology • Random experiments
+<table>
+<tr>
+<td align="center" width="25%">
 
----
+### 🎌
 
-### 📫 Connect With Me
+**ANIME**
 
-GitHub • LinkedIn • Portfolio
+Stories, characters & worlds that inspire me.
+
+</td>
+
+<td align="center" width="25%">
+
+### 🎮
+
+**GAMING**
+
+Competitive games & exploring new worlds.
+
+</td>
+
+<td align="center" width="25%">
+
+### 🧪
+
+**EXPERIMENTS**
+
+Building random things just to see if I can.
+
+</td>
+
+<td align="center" width="25%">
+
+### 💡
+
+**CURIOSITY**
+
+Always learning something new.
+
+</td>
+</tr>
+</table>
+
+<h2>📫 Connect With Me</h2>
+
+<p align="center">
+
+  <a href="mailto:shwetanjsrey20@gmail.com">
+    <img src="https://img.shields.io/badge/Email-shwetanjsrey20%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+
+  &nbsp;
+
+  <a href="https://www.linkedin.com/in/shwetanj-srey-6682603a0">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+
+  &nbsp;
+
+  <img src="https://img.shields.io/badge/Portfolio-Coming%20Soon-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white" />
+
+</p>
