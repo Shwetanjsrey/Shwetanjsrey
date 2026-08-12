@@ -268,36 +268,9 @@ Always exploring something new.
   <code>CONNECT / WITH / ME</code>
 </h2>
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <a href="mailto:shwetanjsrey20@gmail.com">
-        <img
-          src="https://img.shields.io/badge/EMAIL-shwetanjsrey20%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
-          alt="Email"
-        />
-      </a>
-    </td>
-
-    <td align="center">
-      <a href="https://www.linkedin.com/in/shwetanj-srey-6682603a0">
-        <img
-          src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-          alt="LinkedIn"
-        />
-      </a>
-    </td>
-
-    <td align="center">
-      <a href="#">
-        <img
-          src="https://img.shields.io/badge/PORTFOLIO-COMING%20SOON-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white"
-          alt="Portfolio Coming Soon"
-        />
-      </a>
-    </td>
-  </tr>
-</table>
+| EMAIL | LINKEDIN | PORTFOLIO |
+|:---:|:---:|:---:|
+| [![Email](https://img.shields.io/badge/CONTACT-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shwetanjsrey20@gmail.com) | [![LinkedIn](https://img.shields.io/badge/CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shwetanj-srey-6682603a0) | ![Portfolio](https://img.shields.io/badge/COMING_SOON-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white) |
 
 <p align="center">
   <sub>Building things, learning continuously, and shipping when possible.</sub>
