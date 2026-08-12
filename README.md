@@ -177,19 +177,24 @@ Always learning something new.
 <h2>📫 Connect With Me</h2>
 
 <p align="center">
-
   <a href="mailto:shwetanjsrey20@gmail.com">
-    <img src="https://img.shields.io/badge/Email-shwetanjsrey20%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img
+      src="https://img.shields.io/badge/Email-shwetanjsrey20%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
+      alt="Email"
+    />
   </a>
-
   &nbsp;
-
   <a href="https://www.linkedin.com/in/shwetanj-srey-6682603a0">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img
+      src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+      alt="LinkedIn"
+    />
   </a>
-
   &nbsp;
-
-  <img src="https://img.shields.io/badge/Portfolio-Coming%20Soon-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white" />
-
+  <a href="#">
+    <img
+      src="https://img.shields.io/badge/Portfolio-Coming%20Soon-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white"
+      alt="Portfolio Coming Soon"
+    />
+  </a>
 </p>
