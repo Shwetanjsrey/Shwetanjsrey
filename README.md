@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./banner.png" width="100%" alt="Srey - AI/ML and Software Engineering">
+</p>
+
 # Hi, I'm Srey 👋
 
 Computer Science graduate interested in AI/ML, software engineering and building interesting things with code.
