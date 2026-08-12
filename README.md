@@ -51,15 +51,67 @@ Computer Science graduate interested in AI/ML, software engineering and building
 </p>
 ## 🚀 Featured Projects
 
-### 🤖 MindWatch
-AI-powered mental health risk detection and emotion analysis.
+<table>
+<tr>
+<td width="50%">
 
-### 💬 Scalable Real-Time Chat
-A real-time messaging application focused on scalable backend architecture.
+### 🤖 MindWatch
+
+AI-powered mental health risk detection and emotional trend analysis using NLP and transformer models.
+
+**Python • PyTorch • Hugging Face • Flask**
+
+<a href="https://github.com/Shwetanjsrey/Mind-Watch">
+  <img src="https://img.shields.io/badge/View%20Project-8B5CF6?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+</td>
+
+<td width="50%">
+
+### 💬 Scalable WebSockets
+
+Real-time messaging system designed around scalable backend architecture and WebSocket communication.
+
+**TypeScript • Node.js • WebSockets**
+
+<a href="https://github.com/Shwetanjsrey/scaleable-websockets">
+  <img src="https://img.shields.io/badge/View%20Project-8B5CF6?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
 
 ### 📄 AI Resume Analyzer
-An NLP-based application for analyzing resumes and generating career recommendations.
 
+NLP-based application for analyzing resumes and generating career recommendations.
+
+**Python • NLP • spaCy • MySQL**
+
+<a href="#">
+  <img src="https://img.shields.io/badge/View%20Project-8B5CF6?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+</td>
+
+<td width="50%">
+
+### 🎨 NST Web
+
+Flask-based web application that performs Neural Style Transfer to combine the content of one image with the artistic style of another.
+
+**Python • Flask • PyTorch**
+
+<a href="https://github.com/Shwetanjsrey/NST-Web">
+  <img src="https://img.shields.io/badge/View%20Project-8B5CF6?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+</td>
+</tr>
+</table>
 ## 🎯 Current Quest
 
 - ⚔️ Improve DSA
