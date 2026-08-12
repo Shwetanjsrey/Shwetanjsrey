@@ -29,9 +29,9 @@ jobs:
 
           git add quest.svg
 
-          if git diff --cached --quiet; then
-            echo "No changes to quest.svg"
-          else
-            git commit -m "Update quest panel"
-            git push
+          git diff --cached --quiet || git commit -m "Update quest panel"
+
+          git pull --rebase origin main
+
+          git push origin main
           fi
