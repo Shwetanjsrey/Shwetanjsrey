@@ -1,0 +1,55 @@
+{
+  "quests": [
+    {
+      "name": "LEVEL UP DSA",
+      "description": "Sharpen problem-solving skills",
+      "progress": 70,
+      "level": 12,
+      "xp": "850 / 1200",
+      "icon": "⚔"
+    },
+    {
+      "name": "BUILD AI",
+      "description": "Build smarter AI/ML projects",
+      "progress": 65,
+      "level": 10,
+      "xp": "650 / 1000",
+      "icon": "🧠"
+    },
+    {
+      "name": "MASTER BACKEND",
+      "description": "Learn scalable backend systems",
+      "progress": 60,
+      "level": 9,
+      "xp": "540 / 900",
+      "icon": "🌐"
+    },
+    {
+      "name": "OPEN SOURCE",
+      "description": "Contribute to the community",
+      "progress": 40,
+      "level": 6,
+      "xp": "280 / 700",
+      "icon": "🐙"
+    },
+    {
+      "name": "SHIP PROJECTS",
+      "description": "Build. Deploy. Repeat.",
+      "progress": 75,
+      "level": 13,
+      "xp": "975 / 1300",
+      "icon": "🚀"
+    },
+    {
+      "name": "KEEP LEARNING",
+      "description": "Always exploring new tech",
+      "progress": 80,
+      "level": 14,
+      "xp": "1120 / 1400",
+      "icon": "🧠"
+    }
+  ],
+  "overall": 68,
+  "rank": "DEVELOPER",
+  "rankXp": "4420 / 6500"
+}
