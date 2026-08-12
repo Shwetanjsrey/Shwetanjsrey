@@ -1,9 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-width="1200" height="1030"
+width="1200"
+height="1030"
 viewBox="0 0 1200 1030">
 
 <defs>
+
   <style>
+
     .title {
       font: 700 34px monospace;
       fill: #f8fafc;
@@ -49,289 +52,887 @@ viewBox="0 0 1200 1030">
 
     .progress {
       animation: grow 1.5s ease-out;
-      transform-origin: left;
+      transform-origin: left center;
     }
 
     @keyframes grow {
-      from { transform: scaleX(0); }
-      to { transform: scaleX(1); }
+      from {
+        transform: scaleX(0);
+      }
+
+      to {
+        transform: scaleX(1);
+      }
     }
+
   </style>
+
 </defs>
 
-<rect width="1200" height="1030" rx="18" fill="#070b14"/>
-<rect x="1" y="1" width="1198" height="1028" rx="18"
-      fill="none" stroke="#273449" stroke-width="2"/>
 
-<text x="45" y="58" class="title">🎯 CURRENT QUEST</text>
-<line x1="350" y1="47" x2="1150" y2="47"
-      stroke="#8b5cf6" stroke-width="2"/>
+<!-- =====================================================
+     Main background
+     ===================================================== -->
 
-<text x="45" y="95" class="mission">
+<rect
+  width="1200"
+  height="1030"
+  rx="18"
+  fill="#070b14"
+/>
+
+<rect
+  x="1"
+  y="1"
+  width="1198"
+  height="1028"
+  rx="18"
+  fill="none"
+  stroke="#273449"
+  stroke-width="2"
+/>
+
+
+<!-- =====================================================
+     Header
+     ===================================================== -->
+
+<text
+  x="45"
+  y="58"
+  class="title"
+>
+  🎯 CURRENT QUEST
+</text>
+
+<line
+  x1="350"
+  y1="47"
+  x2="1150"
+  y2="47"
+  stroke="#8b5cf6"
+  stroke-width="2"
+/>
+
+<text
+  x="45"
+  y="95"
+  class="mission"
+>
   &lt; Mission: Level up every day, ship impactful projects, and keep building /&gt;
 </text>
 
-<rect x="45" y="125" width="535" height="220"
-      rx="16" fill="#0b1120" stroke="#A855F7" stroke-width="2"/>
-
-<rect x="65" y="150" width="82" height="82"
-      rx="18" fill="#0f172a" stroke="#A855F7" stroke-width="2"/>
-
-<text x="106" y="204"
-      text-anchor="middle"
-      font-size="34">⚔</text>
-
-<text x="170" y="173"
-      class="quest-name"
-      fill="#A855F7">LEVEL UP DSA</text>
-
-<text x="170" y="205"
-      class="description">Sharpen problem-solving skills</text>
-
-<rect x="170" y="237"
-      width="410" height="13"
-      rx="6" class="track"/>
-
-<rect x="170" y="237"
-      width="287.0" height="13"
-      rx="6" fill="#A855F7"
-      class="progress"/>
-
-<text x="170" y="280"
-      class="level"
-      fill="#A855F7">LVL 12</text>
-
-<text x="580" y="280"
-      text-anchor="end"
-      class="xp">850 / 1200 XP</text>
-
-<text x="580" y="237"
-      text-anchor="end"
-      class="percentage"
-      fill="#A855F7">70%</text>
-
-<rect x="635" y="125" width="535" height="220"
-      rx="16" fill="#0b1120" stroke="#38BDF8" stroke-width="2"/>
-
-<rect x="655" y="150" width="82" height="82"
-      rx="18" fill="#0f172a" stroke="#38BDF8" stroke-width="2"/>
-
-<text x="696" y="204"
-      text-anchor="middle"
-      font-size="34">🧠</text>
-
-<text x="760" y="173"
-      class="quest-name"
-      fill="#38BDF8">BUILD AI</text>
-
-<text x="760" y="205"
-      class="description">Build smarter AI/ML projects</text>
-
-<rect x="760" y="237"
-      width="410" height="13"
-      rx="6" class="track"/>
-
-<rect x="760" y="237"
-      width="266.5" height="13"
-      rx="6" fill="#38BDF8"
-      class="progress"/>
-
-<text x="760" y="280"
-      class="level"
-      fill="#38BDF8">LVL 10</text>
-
-<text x="1170" y="280"
-      text-anchor="end"
-      class="xp">650 / 1000 XP</text>
-
-<text x="1170" y="237"
-      text-anchor="end"
-      class="percentage"
-      fill="#38BDF8">65%</text>
-
-<rect x="45" y="370" width="535" height="220"
-      rx="16" fill="#0b1120" stroke="#22D3EE" stroke-width="2"/>
-
-<rect x="65" y="395" width="82" height="82"
-      rx="18" fill="#0f172a" stroke="#22D3EE" stroke-width="2"/>
-
-<text x="106" y="449"
-      text-anchor="middle"
-      font-size="34">🌐</text>
-
-<text x="170" y="418"
-      class="quest-name"
-      fill="#22D3EE">MASTER BACKEND</text>
-
-<text x="170" y="450"
-      class="description">Learn scalable backend systems</text>
-
-<rect x="170" y="482"
-      width="410" height="13"
-      rx="6" class="track"/>
-
-<rect x="170" y="482"
-      width="246.0" height="13"
-      rx="6" fill="#22D3EE"
-      class="progress"/>
-
-<text x="170" y="525"
-      class="level"
-      fill="#22D3EE">LVL 9</text>
-
-<text x="580" y="525"
-      text-anchor="end"
-      class="xp">540 / 900 XP</text>
-
-<text x="580" y="482"
-      text-anchor="end"
-      class="percentage"
-      fill="#22D3EE">60%</text>
-
-<rect x="635" y="370" width="535" height="220"
-      rx="16" fill="#0b1120" stroke="#4ADE80" stroke-width="2"/>
-
-<rect x="655" y="395" width="82" height="82"
-      rx="18" fill="#0f172a" stroke="#4ADE80" stroke-width="2"/>
-
-<text x="696" y="449"
-      text-anchor="middle"
-      font-size="34">🐙</text>
-
-<text x="760" y="418"
-      class="quest-name"
-      fill="#4ADE80">OPEN SOURCE</text>
-
-<text x="760" y="450"
-      class="description">Contribute to the community</text>
-
-<rect x="760" y="482"
-      width="410" height="13"
-      rx="6" class="track"/>
-
-<rect x="760" y="482"
-      width="164.0" height="13"
-      rx="6" fill="#4ADE80"
-      class="progress"/>
-
-<text x="760" y="525"
-      class="level"
-      fill="#4ADE80">LVL 6</text>
-
-<text x="1170" y="525"
-      text-anchor="end"
-      class="xp">280 / 700 XP</text>
-
-<text x="1170" y="482"
-      text-anchor="end"
-      class="percentage"
-      fill="#4ADE80">40%</text>
-
-<rect x="45" y="615" width="535" height="220"
-      rx="16" fill="#0b1120" stroke="#F59E0B" stroke-width="2"/>
-
-<rect x="65" y="640" width="82" height="82"
-      rx="18" fill="#0f172a" stroke="#F59E0B" stroke-width="2"/>
-
-<text x="106" y="694"
-      text-anchor="middle"
-      font-size="34">🚀</text>
-
-<text x="170" y="663"
-      class="quest-name"
-      fill="#F59E0B">SHIP PROJECTS</text>
-
-<text x="170" y="695"
-      class="description">Build. Deploy. Repeat.</text>
-
-<rect x="170" y="727"
-      width="410" height="13"
-      rx="6" class="track"/>
-
-<rect x="170" y="727"
-      width="307.5" height="13"
-      rx="6" fill="#F59E0B"
-      class="progress"/>
-
-<text x="170" y="770"
-      class="level"
-      fill="#F59E0B">LVL 13</text>
-
-<text x="580" y="770"
-      text-anchor="end"
-      class="xp">975 / 1300 XP</text>
-
-<text x="580" y="727"
-      text-anchor="end"
-      class="percentage"
-      fill="#F59E0B">75%</text>
-
-<rect x="635" y="615" width="535" height="220"
-      rx="16" fill="#0b1120" stroke="#EC4899" stroke-width="2"/>
-
-<rect x="655" y="640" width="82" height="82"
-      rx="18" fill="#0f172a" stroke="#EC4899" stroke-width="2"/>
-
-<text x="696" y="694"
-      text-anchor="middle"
-      font-size="34">🧠</text>
-
-<text x="760" y="663"
-      class="quest-name"
-      fill="#EC4899">KEEP LEARNING</text>
-
-<text x="760" y="695"
-      class="description">Always exploring new tech</text>
-
-<rect x="760" y="727"
-      width="410" height="13"
-      rx="6" class="track"/>
-
-<rect x="760" y="727"
-      width="328.0" height="13"
-      rx="6" fill="#EC4899"
-      class="progress"/>
-
-<text x="760" y="770"
-      class="level"
-      fill="#EC4899">LVL 14</text>
-
-<text x="1170" y="770"
-      text-anchor="end"
-      class="xp">1120 / 1400 XP</text>
-
-<text x="1170" y="727"
-      text-anchor="end"
-      class="percentage"
-      fill="#EC4899">80%</text>
-
-<rect x="45" y="865"
-      width="1110" height="120"
-      rx="16"
-      fill="#0b1120"
-      stroke="#334155"
-      stroke-width="2"/>
-
-<text x="70" y="903"
-      class="footer">OVERALL PROGRESS</text>
-
-<rect x="70" y="923"
-      width="690" height="16"
-      rx="8" class="track"/>
-
-<rect x="70" y="923"
-      width="469.2" height="16"
-      rx="8" fill="#8b5cf6"
-      class="progress"/>
-
-<text x="785" y="937"
-      class="percentage"
-      fill="#a78bfa">68%</text>
-
-<text x="900" y="903"
-      class="footer">DEVELOPER</text>
-
-<text x="900" y="935"
-      class="xp">XP 4420 / 6500</text>
+<rect
+  x="45"
+  y="125"
+  width="535"
+  height="220"
+  rx="16"
+  fill="#0b1120"
+  stroke="#A855F7"
+  stroke-width="2"
+/>
+
+
+<!-- Icon container -->
+
+<rect
+  x="65"
+  y="150"
+  width="82"
+  height="82"
+  rx="18"
+  fill="#0f172a"
+  stroke="#A855F7"
+  stroke-width="2"
+/>
+
+
+<!-- Icon -->
+
+<text
+  x="106"
+  y="204"
+  text-anchor="middle"
+  font-size="34"
+>
+  ⚔
+</text>
+
+
+<!-- Quest name -->
+
+<text
+  x="170"
+  y="173"
+  class="quest-name"
+  fill="#A855F7"
+>
+  LEVEL UP DSA
+</text>
+
+
+<!-- Description -->
+
+<text
+  x="170"
+  y="205"
+  class="description"
+>
+  Sharpen problem-solving skills
+</text>
+
+
+<!-- Progress track -->
+
+<rect
+  x="170"
+  y="237"
+  width="340"
+  height="13"
+  rx="6"
+  class="track"
+/>
+
+
+<!-- Progress fill -->
+
+<rect
+  x="170"
+  y="237"
+  width="238.0"
+  height="13"
+  rx="6"
+  fill="#A855F7"
+  class="progress"
+/>
+
+
+<!-- Percentage -->
+
+<text
+  x="550"
+  y="248"
+  text-anchor="end"
+  class="percentage"
+  fill="#A855F7"
+>
+  70%
+</text>
+
+
+<!-- Level -->
+
+<text
+  x="170"
+  y="280"
+  class="level"
+  fill="#A855F7"
+>
+  LVL 12
+</text>
+
+
+<!-- XP -->
+
+<text
+  x="550"
+  y="280"
+  text-anchor="end"
+  class="xp"
+>
+  850 / 1200 XP
+</text>
+
+<rect
+  x="635"
+  y="125"
+  width="535"
+  height="220"
+  rx="16"
+  fill="#0b1120"
+  stroke="#38BDF8"
+  stroke-width="2"
+/>
+
+
+<!-- Icon container -->
+
+<rect
+  x="655"
+  y="150"
+  width="82"
+  height="82"
+  rx="18"
+  fill="#0f172a"
+  stroke="#38BDF8"
+  stroke-width="2"
+/>
+
+
+<!-- Icon -->
+
+<text
+  x="696"
+  y="204"
+  text-anchor="middle"
+  font-size="34"
+>
+  🧠
+</text>
+
+
+<!-- Quest name -->
+
+<text
+  x="760"
+  y="173"
+  class="quest-name"
+  fill="#38BDF8"
+>
+  BUILD AI
+</text>
+
+
+<!-- Description -->
+
+<text
+  x="760"
+  y="205"
+  class="description"
+>
+  Build smarter AI/ML projects
+</text>
+
+
+<!-- Progress track -->
+
+<rect
+  x="760"
+  y="237"
+  width="340"
+  height="13"
+  rx="6"
+  class="track"
+/>
+
+
+<!-- Progress fill -->
+
+<rect
+  x="760"
+  y="237"
+  width="221.0"
+  height="13"
+  rx="6"
+  fill="#38BDF8"
+  class="progress"
+/>
+
+
+<!-- Percentage -->
+
+<text
+  x="1140"
+  y="248"
+  text-anchor="end"
+  class="percentage"
+  fill="#38BDF8"
+>
+  65%
+</text>
+
+
+<!-- Level -->
+
+<text
+  x="760"
+  y="280"
+  class="level"
+  fill="#38BDF8"
+>
+  LVL 10
+</text>
+
+
+<!-- XP -->
+
+<text
+  x="1140"
+  y="280"
+  text-anchor="end"
+  class="xp"
+>
+  650 / 1000 XP
+</text>
+
+<rect
+  x="45"
+  y="370"
+  width="535"
+  height="220"
+  rx="16"
+  fill="#0b1120"
+  stroke="#22D3EE"
+  stroke-width="2"
+/>
+
+
+<!-- Icon container -->
+
+<rect
+  x="65"
+  y="395"
+  width="82"
+  height="82"
+  rx="18"
+  fill="#0f172a"
+  stroke="#22D3EE"
+  stroke-width="2"
+/>
+
+
+<!-- Icon -->
+
+<text
+  x="106"
+  y="449"
+  text-anchor="middle"
+  font-size="34"
+>
+  🌐
+</text>
+
+
+<!-- Quest name -->
+
+<text
+  x="170"
+  y="418"
+  class="quest-name"
+  fill="#22D3EE"
+>
+  MASTER BACKEND
+</text>
+
+
+<!-- Description -->
+
+<text
+  x="170"
+  y="450"
+  class="description"
+>
+  Learn scalable backend systems
+</text>
+
+
+<!-- Progress track -->
+
+<rect
+  x="170"
+  y="482"
+  width="340"
+  height="13"
+  rx="6"
+  class="track"
+/>
+
+
+<!-- Progress fill -->
+
+<rect
+  x="170"
+  y="482"
+  width="204.0"
+  height="13"
+  rx="6"
+  fill="#22D3EE"
+  class="progress"
+/>
+
+
+<!-- Percentage -->
+
+<text
+  x="550"
+  y="493"
+  text-anchor="end"
+  class="percentage"
+  fill="#22D3EE"
+>
+  60%
+</text>
+
+
+<!-- Level -->
+
+<text
+  x="170"
+  y="525"
+  class="level"
+  fill="#22D3EE"
+>
+  LVL 9
+</text>
+
+
+<!-- XP -->
+
+<text
+  x="550"
+  y="525"
+  text-anchor="end"
+  class="xp"
+>
+  540 / 900 XP
+</text>
+
+<rect
+  x="635"
+  y="370"
+  width="535"
+  height="220"
+  rx="16"
+  fill="#0b1120"
+  stroke="#4ADE80"
+  stroke-width="2"
+/>
+
+
+<!-- Icon container -->
+
+<rect
+  x="655"
+  y="395"
+  width="82"
+  height="82"
+  rx="18"
+  fill="#0f172a"
+  stroke="#4ADE80"
+  stroke-width="2"
+/>
+
+
+<!-- Icon -->
+
+<text
+  x="696"
+  y="449"
+  text-anchor="middle"
+  font-size="34"
+>
+  🐙
+</text>
+
+
+<!-- Quest name -->
+
+<text
+  x="760"
+  y="418"
+  class="quest-name"
+  fill="#4ADE80"
+>
+  OPEN SOURCE
+</text>
+
+
+<!-- Description -->
+
+<text
+  x="760"
+  y="450"
+  class="description"
+>
+  Contribute to the community
+</text>
+
+
+<!-- Progress track -->
+
+<rect
+  x="760"
+  y="482"
+  width="340"
+  height="13"
+  rx="6"
+  class="track"
+/>
+
+
+<!-- Progress fill -->
+
+<rect
+  x="760"
+  y="482"
+  width="136.0"
+  height="13"
+  rx="6"
+  fill="#4ADE80"
+  class="progress"
+/>
+
+
+<!-- Percentage -->
+
+<text
+  x="1140"
+  y="493"
+  text-anchor="end"
+  class="percentage"
+  fill="#4ADE80"
+>
+  40%
+</text>
+
+
+<!-- Level -->
+
+<text
+  x="760"
+  y="525"
+  class="level"
+  fill="#4ADE80"
+>
+  LVL 6
+</text>
+
+
+<!-- XP -->
+
+<text
+  x="1140"
+  y="525"
+  text-anchor="end"
+  class="xp"
+>
+  280 / 700 XP
+</text>
+
+<rect
+  x="45"
+  y="615"
+  width="535"
+  height="220"
+  rx="16"
+  fill="#0b1120"
+  stroke="#F59E0B"
+  stroke-width="2"
+/>
+
+
+<!-- Icon container -->
+
+<rect
+  x="65"
+  y="640"
+  width="82"
+  height="82"
+  rx="18"
+  fill="#0f172a"
+  stroke="#F59E0B"
+  stroke-width="2"
+/>
+
+
+<!-- Icon -->
+
+<text
+  x="106"
+  y="694"
+  text-anchor="middle"
+  font-size="34"
+>
+  🚀
+</text>
+
+
+<!-- Quest name -->
+
+<text
+  x="170"
+  y="663"
+  class="quest-name"
+  fill="#F59E0B"
+>
+  SHIP PROJECTS
+</text>
+
+
+<!-- Description -->
+
+<text
+  x="170"
+  y="695"
+  class="description"
+>
+  Build. Deploy. Repeat.
+</text>
+
+
+<!-- Progress track -->
+
+<rect
+  x="170"
+  y="727"
+  width="340"
+  height="13"
+  rx="6"
+  class="track"
+/>
+
+
+<!-- Progress fill -->
+
+<rect
+  x="170"
+  y="727"
+  width="255.0"
+  height="13"
+  rx="6"
+  fill="#F59E0B"
+  class="progress"
+/>
+
+
+<!-- Percentage -->
+
+<text
+  x="550"
+  y="738"
+  text-anchor="end"
+  class="percentage"
+  fill="#F59E0B"
+>
+  75%
+</text>
+
+
+<!-- Level -->
+
+<text
+  x="170"
+  y="770"
+  class="level"
+  fill="#F59E0B"
+>
+  LVL 13
+</text>
+
+
+<!-- XP -->
+
+<text
+  x="550"
+  y="770"
+  text-anchor="end"
+  class="xp"
+>
+  975 / 1300 XP
+</text>
+
+<rect
+  x="635"
+  y="615"
+  width="535"
+  height="220"
+  rx="16"
+  fill="#0b1120"
+  stroke="#EC4899"
+  stroke-width="2"
+/>
+
+
+<!-- Icon container -->
+
+<rect
+  x="655"
+  y="640"
+  width="82"
+  height="82"
+  rx="18"
+  fill="#0f172a"
+  stroke="#EC4899"
+  stroke-width="2"
+/>
+
+
+<!-- Icon -->
+
+<text
+  x="696"
+  y="694"
+  text-anchor="middle"
+  font-size="34"
+>
+  🧠
+</text>
+
+
+<!-- Quest name -->
+
+<text
+  x="760"
+  y="663"
+  class="quest-name"
+  fill="#EC4899"
+>
+  KEEP LEARNING
+</text>
+
+
+<!-- Description -->
+
+<text
+  x="760"
+  y="695"
+  class="description"
+>
+  Always exploring new tech
+</text>
+
+
+<!-- Progress track -->
+
+<rect
+  x="760"
+  y="727"
+  width="340"
+  height="13"
+  rx="6"
+  class="track"
+/>
+
+
+<!-- Progress fill -->
+
+<rect
+  x="760"
+  y="727"
+  width="272.0"
+  height="13"
+  rx="6"
+  fill="#EC4899"
+  class="progress"
+/>
+
+
+<!-- Percentage -->
+
+<text
+  x="1140"
+  y="738"
+  text-anchor="end"
+  class="percentage"
+  fill="#EC4899"
+>
+  80%
+</text>
+
+
+<!-- Level -->
+
+<text
+  x="760"
+  y="770"
+  class="level"
+  fill="#EC4899"
+>
+  LVL 14
+</text>
+
+
+<!-- XP -->
+
+<text
+  x="1140"
+  y="770"
+  text-anchor="end"
+  class="xp"
+>
+  1120 / 1400 XP
+</text>
+
+<rect
+  x="45"
+  y="865"
+  width="1110"
+  height="120"
+  rx="16"
+  fill="#0b1120"
+  stroke="#334155"
+  stroke-width="2"
+/>
+
+
+<!-- Overall progress label -->
+
+<text
+  x="70"
+  y="903"
+  class="footer"
+>
+  OVERALL PROGRESS
+</text>
+
+
+<!-- Overall progress track -->
+
+<rect
+  x="70"
+  y="923"
+  width="650"
+  height="16"
+  rx="8"
+  class="track"
+/>
+
+
+<!-- Overall progress fill -->
+
+<rect
+  x="70"
+  y="923"
+  width="442.0"
+  height="16"
+  rx="8"
+  fill="#8b5cf6"
+  class="progress"
+/>
+
+
+<!-- Overall percentage -->
+
+<text
+  x="745"
+  y="937"
+  class="percentage"
+  fill="#a78bfa"
+>
+  68%
+</text>
+
+
+<!-- Rank -->
+
+<text
+  x="880"
+  y="903"
+  class="footer"
+>
+  DEVELOPER
+</text>
+
+
+<!-- Rank XP -->
+
+<text
+  x="880"
+  y="935"
+  class="xp"
+>
+  XP 4420 / 6500
+</text>
 
 </svg>
