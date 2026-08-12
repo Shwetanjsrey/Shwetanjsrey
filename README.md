@@ -118,9 +118,15 @@ Flask-based web application that performs Neural Style Transfer to combine the c
   <img src="./quest.svg" width="100%" alt="Dynamic RPG-style developer quest dashboard">
 </p>
 
-## 📊 GitHub Activity
+<h2>📊 GitHub Activity</h2>
 
-More coming soon...
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/Shwetanjsrey/Shwetanjsrey/gh-pages/github-snake.svg"
+    alt="GitHub contribution snake animation"
+    width="100%"
+  />
+</p>
 
 ## 🎮 Beyond the Code
 
