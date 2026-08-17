@@ -153,19 +153,20 @@ Real-time messaging system focused on scalable backend architecture and WebSocke
 
 <td width="50%" valign="top">
 
-<h3>NST Web</h3>
+<h3>HelpDesk Microservice</h3>
 
-Flask-based Neural Style Transfer application combining the content of one image with the artistic style of another.
-
-<br><br>
-
-<code>Python</code>
-<code>Flask</code>
-<code>PyTorch</code>
+Contributed to a microservices-based helpdesk ticket management system featuring authentication, ticket workflows, and a React frontend.
 
 <br><br>
 
-<a href="https://github.com/Shwetanjsrey/NST-Web">
+<code>Spring Boot</code>
+<code>React</code>
+<code>Docker</code>
+<code>Microservices</code>
+
+<br><br>
+
+<a href="https://github.com/DanielMaxD/Helpdesk-Microservice-">
   <img src="https://img.shields.io/badge/VIEW_PROJECT-8B5CF6?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
@@ -175,15 +176,19 @@ Flask-based Neural Style Transfer application combining the content of one image
 
 <h3>Habit Tracker</h3>
 
-A habit-tracking application focused on helping users organize routines, monitor consistency and build better habits.
+A full-stack habit tracking application that helps users build consistent routines through streak tracking and progress monitoring.
 
 <br><br>
 
-<code>Project in progress</code>
+<code>React</code>
+<code>Spring Boot</code>
+<code>MySQL</code>
 
 <br><br>
 
-<img src="https://img.shields.io/badge/COMING_SOON-334155?style=for-the-badge&logoColor=white">
+<a href="https://github.com/Shwetanjsrey/habit-tracker">
+  <img src="https://img.shields.io/badge/VIEW_PROJECT-8B5CF6?style=for-the-badge&logo=github&logoColor=white">
+</a>
 
 </td>
 
